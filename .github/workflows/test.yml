@@ -20,7 +20,10 @@ on:
         description: 'Environment to run tests against'
         type: environment
         required: true 
-
+env:
+  one: two
+  three: four
+  
 jobs:
   print-tag:
     runs-on: ubuntu-latest
